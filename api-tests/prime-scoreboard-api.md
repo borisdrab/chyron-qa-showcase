@@ -1,10 +1,10 @@
-# Prime Scoreboard API Test
+# API Testing
 
-## Positive Scenario
+This project contains example API test scenarios demonstrating how a scoreboard API could be tested using Postman.
+
+## Example Positive Scenario
 
 Request
-
-PUT /api/scoreboard
 
 ```json
 {
@@ -18,13 +18,12 @@ PUT /api/scoreboard
 Expected:
 
 - Status Code = 200
-- homeScore = 2
-- awayScore = 1
-- Updated score visible in preview
+- Request accepted successfully
+- Updated score returned by the API
 
 ---
 
-## Negative Scenario
+## Example Negative Scenario
 
 Request
 
@@ -38,3 +37,5 @@ Expected:
 
 - Status Code = 400
 - Validation error returned
+- Invalid score rejected
+```
