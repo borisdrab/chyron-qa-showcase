@@ -1,0 +1,67 @@
+{
+  "info": {
+    "_postman_id": "56e1195c-147e-43ac-8e60-23f2bfad4641",
+    "name": "Chyron Scoreboard API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "18267103"
+  },
+  "item": [
+    {
+      "name": "GET Scoreboard",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://httpbin.org/get",
+          "protocol": "https",
+          "host": [
+            "httpbin",
+            "org"
+          ],
+          "path": [
+            "get"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "POST Scoreboard Update",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://httpbin.org/post",
+          "protocol": "https",
+          "host": [
+            "httpbin",
+            "org"
+          ],
+          "path": [
+            "post"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "PUT Scoreboard Update",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://httpbin.org/put",
+          "protocol": "https",
+          "host": [
+            "httpbin",
+            "org"
+          ],
+          "path": [
+            "put"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
